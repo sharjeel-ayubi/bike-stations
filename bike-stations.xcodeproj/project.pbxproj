@@ -14,6 +14,23 @@
 		53F6B9452A237D790097B464 /* bike_stationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9442A237D790097B464 /* bike_stationsTests.swift */; };
 		53F6B94F2A237D790097B464 /* bike_stationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B94E2A237D790097B464 /* bike_stationsUITests.swift */; };
 		53F6B9512A237D790097B464 /* bike_stationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9502A237D790097B464 /* bike_stationsUITestsLaunchTests.swift */; };
+		53F6B9682A24D8930097B464 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9672A24D8930097B464 /* NetworkService.swift */; };
+		53F6B96A2A24DB320097B464 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9692A24DB320097B464 /* DataRequest.swift */; };
+		53F6B96C2A24DE900097B464 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B96B2A24DE900097B464 /* NetworkError.swift */; };
+		53F6B9702A24F1AF0097B464 /* GetBikeStationListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B96F2A24F1AF0097B464 /* GetBikeStationListRequest.swift */; };
+		53F6B9762A24FB530097B464 /* BikeStationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9752A24FB530097B464 /* BikeStationsResponse.swift */; };
+		53F6B97A2A2501CD0097B464 /* BikeStationListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9792A2501CD0097B464 /* BikeStationListVM.swift */; };
+		53F6B97D2A2502170097B464 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B97C2A2502170097B464 /* LocationService.swift */; };
+		53F6B9802A250E260097B464 /* BikeStationsNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B97F2A250E260097B464 /* BikeStationsNetworkService.swift */; };
+		53F6B9822A2513410097B464 /* BikeStationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9812A2513410097B464 /* BikeStationListView.swift */; };
+		53F6B9892A2520E20097B464 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9882A2520E20097B464 /* Constants.swift */; };
+		53F6B98B2A2522360097B464 /* BikeStationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B98A2A2522360097B464 /* BikeStationCardView.swift */; };
+		53F6B98F2A25463A0097B464 /* BikeStationCardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B98E2A25463A0097B464 /* BikeStationCardVM.swift */; };
+		53F6B9932A2556190097B464 /* BikeStationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9922A2556190097B464 /* BikeStationDetailView.swift */; };
+		53F6B9952A2570090097B464 /* BikeStationDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9942A2570090097B464 /* BikeStationDetailVM.swift */; };
+		53F6B9972A2578EA0097B464 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9962A2578EA0097B464 /* MapView.swift */; };
+		53F6B9992A257BA10097B464 /* MapViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B9982A257BA10097B464 /* MapViewVM.swift */; };
+		53F6B99C2A257EDE0097B464 /* AnnotationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F6B99B2A257EDE0097B464 /* AnnotationItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +61,24 @@
 		53F6B94A2A237D790097B464 /* bike-stationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bike-stationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F6B94E2A237D790097B464 /* bike_stationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bike_stationsUITests.swift; sourceTree = "<group>"; };
 		53F6B9502A237D790097B464 /* bike_stationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bike_stationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53F6B9672A24D8930097B464 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		53F6B9692A24DB320097B464 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		53F6B96B2A24DE900097B464 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		53F6B96F2A24F1AF0097B464 /* GetBikeStationListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBikeStationListRequest.swift; sourceTree = "<group>"; };
+		53F6B9752A24FB530097B464 /* BikeStationsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationsResponse.swift; sourceTree = "<group>"; };
+		53F6B9792A2501CD0097B464 /* BikeStationListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationListVM.swift; sourceTree = "<group>"; };
+		53F6B97C2A2502170097B464 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		53F6B97F2A250E260097B464 /* BikeStationsNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationsNetworkService.swift; sourceTree = "<group>"; };
+		53F6B9812A2513410097B464 /* BikeStationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationListView.swift; sourceTree = "<group>"; };
+		53F6B9832A2515450097B464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		53F6B9882A2520E20097B464 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		53F6B98A2A2522360097B464 /* BikeStationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationCardView.swift; sourceTree = "<group>"; };
+		53F6B98E2A25463A0097B464 /* BikeStationCardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationCardVM.swift; sourceTree = "<group>"; };
+		53F6B9922A2556190097B464 /* BikeStationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationDetailView.swift; sourceTree = "<group>"; };
+		53F6B9942A2570090097B464 /* BikeStationDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationDetailVM.swift; sourceTree = "<group>"; };
+		53F6B9962A2578EA0097B464 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		53F6B9982A257BA10097B464 /* MapViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewVM.swift; sourceTree = "<group>"; };
+		53F6B99B2A257EDE0097B464 /* AnnotationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +129,10 @@
 		53F6B9322A237D780097B464 /* bike-stations */ = {
 			isa = PBXGroup;
 			children = (
-				53F6B9332A237D780097B464 /* bike_stationsApp.swift */,
-				53F6B9352A237D780097B464 /* ContentView.swift */,
-				53F6B9372A237D790097B464 /* Assets.xcassets */,
+				53F6B9832A2515450097B464 /* Info.plist */,
+				53F6B95D2A2495310097B464 /* Code */,
+				53F6B95E2A24989B0097B464 /* SupportingFiles */,
+				53F6B95F2A2498DB0097B464 /* Resources */,
 				53F6B9392A237D790097B464 /* Preview Content */,
 			);
 			path = "bike-stations";
@@ -125,6 +161,191 @@
 				53F6B9502A237D790097B464 /* bike_stationsUITestsLaunchTests.swift */,
 			);
 			path = "bike-stationsUITests";
+			sourceTree = "<group>";
+		};
+		53F6B95D2A2495310097B464 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9602A249A4B0097B464 /* Screens */,
+				53F6B9612A249ACF0097B464 /* Utilities */,
+				53F6B9652A24D60F0097B464 /* Services */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		53F6B95E2A24989B0097B464 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9352A237D780097B464 /* ContentView.swift */,
+				53F6B9332A237D780097B464 /* bike_stationsApp.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		53F6B95F2A2498DB0097B464 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9372A237D790097B464 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53F6B9602A249A4B0097B464 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9642A249EEF0097B464 /* BikeStationDetail */,
+				53F6B9632A249EE50097B464 /* BikeStationList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		53F6B9612A249ACF0097B464 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9882A2520E20097B464 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		53F6B9622A249ADB0097B464 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B97E2A250DF20097B464 /* APIs */,
+				53F6B9712A24F1B30097B464 /* Requests */,
+				53F6B9872A251E6F0097B464 /* Manager */,
+				53F6B9852A251E570097B464 /* Protocols */,
+				53F6B9842A251E3F0097B464 /* Error */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		53F6B9632A249EE50097B464 /* BikeStationList */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9782A2501830097B464 /* View */,
+				53F6B9772A25017B0097B464 /* ViewModel */,
+				53F6B9742A24FB050097B464 /* Model */,
+			);
+			path = BikeStationList;
+			sourceTree = "<group>";
+		};
+		53F6B9642A249EEF0097B464 /* BikeStationDetail */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B99A2A257ECB0097B464 /* Model */,
+				53F6B9912A2555E60097B464 /* ViewModel */,
+				53F6B9902A2555E10097B464 /* View */,
+			);
+			path = BikeStationDetail;
+			sourceTree = "<group>";
+		};
+		53F6B9652A24D60F0097B464 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B97B2A2502040097B464 /* Location */,
+				53F6B9622A249ADB0097B464 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		53F6B9712A24F1B30097B464 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B96F2A24F1AF0097B464 /* GetBikeStationListRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		53F6B9742A24FB050097B464 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9752A24FB530097B464 /* BikeStationsResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53F6B9772A25017B0097B464 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B98E2A25463A0097B464 /* BikeStationCardVM.swift */,
+				53F6B9792A2501CD0097B464 /* BikeStationListVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		53F6B9782A2501830097B464 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9812A2513410097B464 /* BikeStationListView.swift */,
+				53F6B98A2A2522360097B464 /* BikeStationCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53F6B97B2A2502040097B464 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B97C2A2502170097B464 /* LocationService.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		53F6B97E2A250DF20097B464 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B97F2A250E260097B464 /* BikeStationsNetworkService.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		53F6B9842A251E3F0097B464 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B96B2A24DE900097B464 /* NetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		53F6B9852A251E570097B464 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9692A24DB320097B464 /* DataRequest.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		53F6B9872A251E6F0097B464 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9672A24D8930097B464 /* NetworkService.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		53F6B9902A2555E10097B464 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9922A2556190097B464 /* BikeStationDetailView.swift */,
+				53F6B9962A2578EA0097B464 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53F6B9912A2555E60097B464 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B9942A2570090097B464 /* BikeStationDetailVM.swift */,
+				53F6B9982A257BA10097B464 /* MapViewVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		53F6B99A2A257ECB0097B464 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53F6B99B2A257EDE0097B464 /* AnnotationItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +478,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F6B9802A250E260097B464 /* BikeStationsNetworkService.swift in Sources */,
+				53F6B9702A24F1AF0097B464 /* GetBikeStationListRequest.swift in Sources */,
+				53F6B97D2A2502170097B464 /* LocationService.swift in Sources */,
 				53F6B9362A237D780097B464 /* ContentView.swift in Sources */,
+				53F6B9682A24D8930097B464 /* NetworkService.swift in Sources */,
+				53F6B9762A24FB530097B464 /* BikeStationsResponse.swift in Sources */,
+				53F6B98F2A25463A0097B464 /* BikeStationCardVM.swift in Sources */,
+				53F6B99C2A257EDE0097B464 /* AnnotationItem.swift in Sources */,
+				53F6B9952A2570090097B464 /* BikeStationDetailVM.swift in Sources */,
+				53F6B9892A2520E20097B464 /* Constants.swift in Sources */,
+				53F6B9972A2578EA0097B464 /* MapView.swift in Sources */,
 				53F6B9342A237D780097B464 /* bike_stationsApp.swift in Sources */,
+				53F6B9822A2513410097B464 /* BikeStationListView.swift in Sources */,
+				53F6B98B2A2522360097B464 /* BikeStationCardView.swift in Sources */,
+				53F6B97A2A2501CD0097B464 /* BikeStationListVM.swift in Sources */,
+				53F6B9992A257BA10097B464 /* MapViewVM.swift in Sources */,
+				53F6B9932A2556190097B464 /* BikeStationDetailView.swift in Sources */,
+				53F6B96A2A24DB320097B464 /* DataRequest.swift in Sources */,
+				53F6B96C2A24DE900097B464 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +583,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -420,11 +658,15 @@
 				DEVELOPMENT_TEAM = AC9G84FCG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bike-stations/Info.plist";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app will use your location to find bike stations near you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app will use your location to find bike stations near you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +691,15 @@
 				DEVELOPMENT_TEAM = AC9G84FCG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bike-stations/Info.plist";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app will use your location to find bike stations near you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app will use your location to find bike stations near you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

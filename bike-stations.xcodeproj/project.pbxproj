@@ -70,7 +70,7 @@
 		53F6B97C2A2502170097B464 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		53F6B97F2A250E260097B464 /* BikeStationsNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationsNetworkService.swift; sourceTree = "<group>"; };
 		53F6B9812A2513410097B464 /* BikeStationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationListView.swift; sourceTree = "<group>"; };
-		53F6B9832A2515450097B464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		53F6B9832A2515450097B464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53F6B9882A2520E20097B464 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		53F6B98A2A2522360097B464 /* BikeStationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationCardView.swift; sourceTree = "<group>"; };
 		53F6B98E2A25463A0097B464 /* BikeStationCardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStationCardVM.swift; sourceTree = "<group>"; };
@@ -129,7 +129,6 @@
 		53F6B9322A237D780097B464 /* bike-stations */ = {
 			isa = PBXGroup;
 			children = (
-				53F6B9832A2515450097B464 /* Info.plist */,
 				53F6B95D2A2495310097B464 /* Code */,
 				53F6B95E2A24989B0097B464 /* SupportingFiles */,
 				53F6B95F2A2498DB0097B464 /* Resources */,
@@ -185,6 +184,7 @@
 		53F6B95F2A2498DB0097B464 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				53F6B9832A2515450097B464 /* Info.plist */,
 				53F6B9372A237D790097B464 /* Assets.xcassets */,
 			);
 			path = Resources;

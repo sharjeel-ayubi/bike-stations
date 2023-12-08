@@ -24,7 +24,7 @@ final class DefaultNetworkService: NetworkService {
         guard let urlRequest = request.buildRequest() else {
             return AnyPublisher(Fail<T, NetworkError>(error: NetworkError.badURL("Invalid Url")))
         }
-        
+        print("URL: \(urlRequest.url?.absoluteString ?? "")")
         // We use the dataTaskPublisher from the URLSession which gives us a publisher to play around with.
         return URLSession.shared
             .dataTaskPublisher(for: urlRequest)

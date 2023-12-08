@@ -129,6 +129,7 @@
 		53F6B9322A237D780097B464 /* bike-stations */ = {
 			isa = PBXGroup;
 			children = (
+				53F6B9832A2515450097B464 /* Info.plist */,
 				53F6B95D2A2495310097B464 /* Code */,
 				53F6B95E2A24989B0097B464 /* SupportingFiles */,
 				53F6B95F2A2498DB0097B464 /* Resources */,
@@ -184,7 +185,6 @@
 		53F6B95F2A2498DB0097B464 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				53F6B9832A2515450097B464 /* Info.plist */,
 				53F6B9372A237D790097B464 /* Assets.xcassets */,
 			);
 			path = Resources;
